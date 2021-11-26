@@ -12,7 +12,7 @@ namespace runtime
     {
         static void Main(string[] args)
         {
-            string port = 8080;
+            string port = "8080";
             TcpListener server = new TcpListener(IPAddress.Any, Int32.Parse(port));
 
             server.Start();
